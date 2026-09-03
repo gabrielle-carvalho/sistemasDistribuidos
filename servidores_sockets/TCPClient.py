@@ -1,3 +1,4 @@
+# DUPLA: GABRIELLE CARVALHO & CIBELE VALE
 import socket
 import time
 
