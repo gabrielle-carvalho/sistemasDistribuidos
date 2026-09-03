@@ -1,3 +1,5 @@
+# DUPLA: GABRIELLE CARVALHO & CIBELE VALE
+
 import socket  # Módulo para comunicação de rede
 import time    # Módulo para usar a função sleep (pausa)
 
