@@ -1,3 +1,4 @@
+# DUPLA: GABRIELLE CARVALHO & CIBELE VALE
 import socket  # Importa o módulo socket, necessário para comunicação de rede
 
 def main():
