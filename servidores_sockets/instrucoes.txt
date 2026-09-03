@@ -1,0 +1,45 @@
+Servidor Simples em Python com Sockets
+
+
+Projetar e implementar, em duplas, um sistema cliente-servidor simples utilizando a linguagem Python. O sistema deve utilizar a comunicação via rede com os protocolos UDP ou TCP (à escolha da dupla).
+
+Especificação:
+Implementar duas aplicações:
+
+Servidor: responsável por aguardar conexões ou mensagens dos clientes e responder de acordo com a lógica proposta.
+
+Cliente: responsável por requisitar serviços e exibir a resposta ao usuário.
+
+O sistema deverá funcionar da seguinte forma:
+
+O cliente envia uma solicitação ao servidor contendo uma string (ex: uma palavra ou frase).
+
+O servidor processa a string, processa o serviço e devolve uma string em resposta.
+
+O sistema deve ser escrito em Python.
+
+O protocolo de comunicação (TCP ou UDP) deve ser escolhido pela dupla e informado no código.
+
+O código deve conter comentários explicativos.
+
+A interface pode ser via terminal/linha de comando.
+
+Critérios de Avaliação
+Funcionamento correto do sistema cliente-servidor.
+
+Estrutura e clareza do código.
+
+Código com comentários explicativos.
+
+Uso correto do protocolo escolhido (manuseio de sockets, conexão, envio/recebimento).
+
+Participação e cooperação entre os membros da dupla.
+
+Entrega
+A tarefa será desenvolvida durante a aula. 
+
+Após a aula, o código deve ser enviado, contendo:
+
+Arquivos .py do cliente e do servidor.
+
+Nome dos integrantes da dupla e justificativa para o protocolo escolhido no início dos códigos.
