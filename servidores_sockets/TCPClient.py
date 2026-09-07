@@ -1,4 +1,18 @@
 # DUPLA: GABRIELLE CARVALHO & CIBELE VALE
+
+# A escolha do protocolo TCP (Transmission Control Protocol) para a implementação do sistema cliente-servidor de Jo-Ken-Pô 
+# se deu graças às garantias essenciais fornecidas pela camada de transporte, garantindo segurança e consistência. 
+# Por ser um protocolo orientado à conexão, o TCP estabelece um canal de comunicação bidirecional e dedicado antes 
+# de qualquer troca de dados, utilizando o mecanismo de handshake de três vias, garantindo que tanto as requisições quanto
+#  os resultados sejam entregues sem perda de pacotes, alterações ou duplicação de dados. 
+# Além disso, o TCP oferece controle de fluxo e retransmissão transparente de pacotes em caso de oscilações na rede (jitter),
+#  o que previne comportamentos imprevisíveis na interface do usuário e assegura o sequenciamento correto das mensagens. 
+# Do ponto de vista da arquitetura do servidor, a utilização do TCP associada ao gerenciamento de threads permite isolar 
+# cada conexão aceita em uma execução paralela e independente. Dessa forma, o servidor é capaz de atender múltiplos clientes 
+# simultaneamente de forma estável e responsiva, sem bloquear a escuta de novas conexões e garantindo o pleno funcionamento 
+# dos requisitos propostos para o sistema. 
+
+
 import socket
 import time
 
