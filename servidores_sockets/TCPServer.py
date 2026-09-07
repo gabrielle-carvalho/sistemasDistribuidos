@@ -1,7 +1,7 @@
 # DUPLA: GABRIELLE CARVALHO & CIBELE VALE
 import socket
 import threading
-import random
+import secrets
 
 #classe que representa uma thread para lidar com cada cliente
 class ClientThread(threading.Thread):
@@ -29,7 +29,7 @@ class ClientThread(threading.Thread):
                 if jogadaCliente not in opcoes_validas:
                     response = "Erro: Jogada inválida! Digite apenas: pedra, papel ou tesoura."
                 else:
-                    jogada_servidor = random.choice(opcoes_validas)
+                    jogada_servidor = secrets.choice(opcoes_validas)
                     
                     if jogadaCliente == jogada_servidor: #jogadas iguais gera empate
                         resultado = "EMPATAMOS! "
